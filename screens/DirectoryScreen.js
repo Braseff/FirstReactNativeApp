@@ -8,7 +8,9 @@ const DirectoryScreen = (props) => {
                 <Avatar source={campsite.image} rounded />
                 <ListItem.Content>
                     <ListItem.Title>{campsite.name}</ListItem.Title>
-                    <ListItem.Subtitle>{campsite.description}</ListItem.Subtitle>
+                    <ListItem.Subtitle>
+                        {campsite.description}
+                    </ListItem.Subtitle>
                 </ListItem.Content>
             </ListItem>
         );
